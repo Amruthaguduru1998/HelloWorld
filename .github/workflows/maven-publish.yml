@@ -4,6 +4,10 @@
 name: procject cicd flow
 
 on:
+  push:
+    branches: [ master ]
+  pull_ request:
+    branches: [ master ]
   release:
     types: [created]
 
